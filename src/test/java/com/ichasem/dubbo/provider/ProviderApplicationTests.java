@@ -1,4 +1,4 @@
-package com.winter.dubbo.provider;
+package com.ichasem.dubbo.provider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

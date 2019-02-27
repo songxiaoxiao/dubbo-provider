@@ -1,4 +1,4 @@
-package com.winter.dubbo.provider.service;
+package com.ichasem.dubbo.provider.service;
 
 public class DemoServiceImpl implements DemoService {
     public String sayHello(String name){
