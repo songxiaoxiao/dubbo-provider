@@ -15,9 +15,9 @@
     <dubbo:protocol name="dubbo" port="20880" host="127.0.0.1"/>
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.ichasem.dubbo.provider.service.DemoService" ref="demoService" />
+    <dubbo:service interface="com.ichasem.dubbo.provider.service.IDemoService" ref="demoService" />
 
     <!-- 和本地bean一样实现服务 -->
-    <bean id="demoService" class="com.ichasem.dubbo.provider.service.DemoServiceImpl" />
+    <bean id="demoService" class="com.ichasem.dubbo.provider.service.impl.DemoServiceImpl" />
 
 </beans>

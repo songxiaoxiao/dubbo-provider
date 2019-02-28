@@ -18,6 +18,6 @@
     <dubbo:service interface="com.ichasem.dubbo.provider.service.DemoService" ref="demoService" />
 
     <!-- 和本地bean一样实现服务 -->
-    <bean id="demoService" class="com.ichasem.dubbo.provider.service.DemoServiceImpl" />
+    <bean id="demoService" class="com.ichasem.dubbo.provider.service.impl.DemoServiceImpl" />
 
 </beans>
